@@ -1,0 +1,41 @@
+{
+  "rendered": true,
+  "transforms": {
+    "cart": {
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "pole": {
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  },
+  "urdf_sha256": "a8aec0f0c62df1d3229463993f59c45f7365022d464b49dfe364a3c391e5487c",
+  "rviz_config_sha256": "50462e6323947244de970a05c3fc1c194538581918ed37dd5aa2bd541c88114e",
+  "screenshot": "cartpole-rviz-visual.png",
+  "renderer": "Xvfb, software OpenGL (LIBGL_ALWAYS_SOFTWARE=1)",
+  "ros": "Humble",
+  "isolation": "ROS domain 201; localhost only",
+  "human_visual_review": true,
+  "limitation": "Software rendering and TF only. No hardware, physical correctness, inertia/unit certification or client delivery acceptance.",
+  "reviewed_by": "Codex",
+  "visual_observations": "Personally inspected actual RViz capture: Global Status OK and RobotModel Status OK; cart and pole visible. Cyan slide bar, blue cart and white pole visible in visual mode."
+}
