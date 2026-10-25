@@ -1,0 +1,57 @@
+{
+  "robot": "physics",
+  "links": 16,
+  "joints": 15,
+  "passed": true,
+  "issues": [
+    {
+      "level": "warning",
+      "code": "mesh_resolution_required",
+      "item": "left_gripper",
+      "detail": "Resolve mesh in the agreed ROS package environment; no external path is read by this linter."
+    },
+    {
+      "level": "warning",
+      "code": "mesh_resolution_required",
+      "item": "left_gripper",
+      "detail": "Resolve mesh in the agreed ROS package environment; no external path is read by this linter."
+    },
+    {
+      "level": "warning",
+      "code": "mesh_resolution_required",
+      "item": "left_tip",
+      "detail": "Resolve mesh in the agreed ROS package environment; no external path is read by this linter."
+    },
+    {
+      "level": "warning",
+      "code": "mesh_resolution_required",
+      "item": "left_tip",
+      "detail": "Resolve mesh in the agreed ROS package environment; no external path is read by this linter."
+    },
+    {
+      "level": "warning",
+      "code": "mesh_resolution_required",
+      "item": "right_gripper",
+      "detail": "Resolve mesh in the agreed ROS package environment; no external path is read by this linter."
+    },
+    {
+      "level": "warning",
+      "code": "mesh_resolution_required",
+      "item": "right_gripper",
+      "detail": "Resolve mesh in the agreed ROS package environment; no external path is read by this linter."
+    },
+    {
+      "level": "warning",
+      "code": "mesh_resolution_required",
+      "item": "right_tip",
+      "detail": "Resolve mesh in the agreed ROS package environment; no external path is read by this linter."
+    },
+    {
+      "level": "warning",
+      "code": "mesh_resolution_required",
+      "item": "right_tip",
+      "detail": "Resolve mesh in the agreed ROS package environment; no external path is read by this linter."
+    }
+  ],
+  "limitation": "Static lint only. Reda must review physical correctness, units and frames before delivery. No hardware or safety certification."
+}

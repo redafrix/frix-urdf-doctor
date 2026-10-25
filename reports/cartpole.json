@@ -1,0 +1,27 @@
+{
+  "robot": "physics",
+  "links": 3,
+  "joints": 2,
+  "passed": true,
+  "issues": [
+    {
+      "level": "warning",
+      "code": "static_zero_mass",
+      "item": "slideBar",
+      "detail": "Zero-mass fixed/base link: verify intended static use; no physical certification."
+    },
+    {
+      "level": "warning",
+      "code": "missing_collision",
+      "item": "slideBar",
+      "detail": "Visual geometry has no collision geometry."
+    },
+    {
+      "level": "warning",
+      "code": "missing_control_limits",
+      "item": "cart_to_pole",
+      "detail": "Continuous URDF joint permits omitted limits; controller effort/velocity still need explicit review."
+    }
+  ],
+  "limitation": "Static lint only. Reda must review physical correctness, units and frames before delivery. No hardware or safety certification."
+}

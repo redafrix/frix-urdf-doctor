@@ -1,0 +1,20 @@
+[
+  {
+    "file": "cartpole.urdf",
+    "url": "https://raw.githubusercontent.com/bulletphysics/bullet3/d3afe76132fc76b0f9b2359cbaef47a3766e7fbb/data/cartpole.urdf",
+    "sha256": "a8aec0f0c62df1d3229463993f59c45f7365022d464b49dfe364a3c391e5487c",
+    "commit": "d3afe76132fc76b0f9b2359cbaef47a3766e7fbb"
+  },
+  {
+    "file": "r2d2.urdf",
+    "url": "https://raw.githubusercontent.com/bulletphysics/bullet3/d3afe76132fc76b0f9b2359cbaef47a3766e7fbb/data/r2d2.urdf",
+    "sha256": "1e079b050af5e0ba942d6156e8a5f688a2d55a6a749252599a8483b0545405f8",
+    "commit": "d3afe76132fc76b0f9b2359cbaef47a3766e7fbb"
+  },
+  {
+    "file": "pendulum5.urdf",
+    "url": "https://raw.githubusercontent.com/bulletphysics/bullet3/d3afe76132fc76b0f9b2359cbaef47a3766e7fbb/examples/pybullet/gym/pybullet_data/pendulum5.urdf",
+    "sha256": "ed081cb8cfd97defe970614c22554c085fd6d4efeceac863d0003e8fb3bce488",
+    "commit": "d3afe76132fc76b0f9b2359cbaef47a3766e7fbb"
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "robot": "pendulum",
+  "links": 6,
+  "joints": 5,
+  "passed": true,
+  "issues": [
+    {
+      "level": "warning",
+      "code": "missing_inertia",
+      "item": "world",
+      "detail": "No inertial block; review intended fixed/base/dynamic use."
+    },
+    {
+      "level": "warning",
+      "code": "missing_control_limits",
+      "item": "joint0",
+      "detail": "Continuous URDF joint permits omitted limits; controller effort/velocity still need explicit review."
+    },
+    {
+      "level": "warning",
+      "code": "missing_control_limits",
+      "item": "joint1",
+      "detail": "Continuous URDF joint permits omitted limits; controller effort/velocity still need explicit review."
+    },
+    {
+      "level": "warning",
+      "code": "missing_control_limits",
+      "item": "joint2",
+      "detail": "Continuous URDF joint permits omitted limits; controller effort/velocity still need explicit review."
+    },
+    {
+      "level": "warning",
+      "code": "missing_control_limits",
+      "item": "joint3",
+      "detail": "Continuous URDF joint permits omitted limits; controller effort/velocity still need explicit review."
+    },
+    {
+      "level": "warning",
+      "code": "missing_control_limits",
+      "item": "joint4",
+      "detail": "Continuous URDF joint permits omitted limits; controller effort/velocity still need explicit review."
+    }
+  ],
+  "limitation": "Static lint only. Reda must review physical correctness, units and frames before delivery. No hardware or safety certification."
+}
